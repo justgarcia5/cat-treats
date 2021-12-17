@@ -1,0 +1,37 @@
+.ourtreats-div {
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgb(223, 221, 221);
+    width: 950px;
+    margin: auto;
+}
+
+.treats-div-row1 {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+.treats-div-row1 div img {
+    height: 280px;
+}
+.treats-div-row2 {
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    padding-bottom: 30px;
+    width: 950px;
+    text-align: left;
+}
+
+.treats-div-row2 img {
+    height: 460px;
+}
+
+.row2-trial-info {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 50px;
+}

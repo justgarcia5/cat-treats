@@ -1,0 +1,35 @@
+.intro-div {
+padding: 60px 0;
+display: flex;
+justify-content: center;
+height: 600px;
+width: 950px;
+margin: auto;
+}
+
+.intro-div img {
+height: 550px;
+}
+
+.col1 {
+padding: 50px 0;
+padding-right: 30px;
+width: 370px;
+}
+
+.col1 ul li {
+padding: 14px 0;
+}
+
+.btn-div {
+text-align: center;
+}
+
+.btn-div button {
+    width: 370px;
+    padding: 8px;
+    background-color: rgb(238, 139, 103);
+    color: white;
+    font-size: 14px;
+    border-color: rgb(238, 139, 103);
+}
