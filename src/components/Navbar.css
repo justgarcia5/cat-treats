@@ -1,11 +1,44 @@
-/* .nav {
-    display: none;
-} */
+@media only screen and (min-width: 600px) {
+    .nav {
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .nav {
-        height: 100px;
-        background-color: gray;
-        width: 100%;
+        display: flex;
+        flex-direction: row;
+        height: 60px;
+        background-color: rgb(248, 248, 248);
+        width: 100vw;
+        margin: 0;
+        color: rgb(63, 63, 63);
+    }
+
+    .menu-icon {
+        width: 33%;
+        margin-left: 20px;
+        font-size: 38px;
+    }
+    .home-link {
+        margin-top: 10px;
+        width: 33%;
+        text-align: center;
+    }
+    .search-icon {
+        margin-top: 16px;
+        width: 16%;
+        text-align: right;
+    }
+    .cart-link {
+        margin-top: 15px;
+        width: 16%;
+        text-align: right;
+        margin-right: 20px;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: black;
     }
 }

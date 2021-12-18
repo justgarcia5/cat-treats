@@ -18,9 +18,6 @@ export default function MobileIntro(props) {
                     <li>Included in your bundle is a free 2 week membership that gives you unlimited access to our entire collection of sustainable essentials.</li>
                     <li>Take a load off. We make it easier for you to make better choices. Always included: eco-friendly products you can trust.</li>
                 </ul>
-                <div className='btn-div'>
-                    <button href='/'>Claim your free offer</button>
-                </div>
             </div>
         </div>
     )
