@@ -13,6 +13,10 @@
         width: 100vw;
         margin: 0;
         color: rgb(63, 63, 63);
+        z-index: 100;
+        position: fixed;
+        width: 100%;
+        top: 0;
     }
 
     .menu-icon {
@@ -26,14 +30,14 @@
         text-align: center;
     }
     .search-icon {
-        margin-top: 16px;
+        margin-top: 18px;
         width: 16%;
         text-align: right;
-        font: 30px;
+        font-size: 20px;
         color: rgb(104, 101, 101);
     }
     .cart-link {
-        margin-top: 15px;
+        margin-top: 18px;
         width: 16%;
         text-align: right;
         margin-right: 20px;
@@ -42,6 +46,10 @@
 
     .nav a {
         text-decoration: none;
+        color: black;
+    }
+
+    .nav b {
         color: black;
     }
 }

@@ -8,16 +8,18 @@ export default function Navbar() {
         <div className='nav'>
             <i className='menu-icon'>=</i>
             <a href='/' className='home-link'>
-                PUBLIC
-                <br />
-                GOODS
+                <b>
+                    PUBLIC
+                    <br />
+                    GOODS
+                </b>
             </a>
             <i className='search-icon'>
                 <FontAwesomeIcon
                     icon={faSearch}
                 />
             </i>
-            <a href='/' className='cart-link'>Cart 0</a>
+            <a href='/' className='cart-link'>Cart <b>0</b></a>
         </div>
     )
 }
