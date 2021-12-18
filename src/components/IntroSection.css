@@ -60,16 +60,3 @@
 .col1 ul li {
     padding: 10px 0;
 }
-
-.btn-div {
-    text-align: center;
-}
-
-.btn-div button {
-    width: 370px;
-    padding: 8px;
-    background-color: rgb(238, 139, 103);
-    color: white;
-    font-size: 14px;
-    border-color: rgb(238, 139, 103);
-}

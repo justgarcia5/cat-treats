@@ -1,5 +1,6 @@
 import React, { useState, useEffect} from 'react';
 import './App.css';
+import ClaimButton from './components/ClaimButton';
 import IntroSection from './components/IntroSection';
 import OurTreat from './components/OurTreat';
 
@@ -22,6 +23,9 @@ function App() {
       <OurTreat
         isMobile={isMobile}
       />
+      {isMobile &&
+        <ClaimButton />
+      }
     </React.Fragment>
   );
 }

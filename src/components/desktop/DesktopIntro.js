@@ -1,6 +1,7 @@
 import React from 'react';
 
 import catImage from '../../images/cat_image1_desktop.png';
+import ClaimButton from '../ClaimButton';
 
 export default function DesktopIntro() {
     return(
@@ -17,9 +18,7 @@ export default function DesktopIntro() {
                     <li>Included in your bundle is a free 2 week membership that gives you unlimited access to our entire collection of sustainable essentials.</li>
                     <li>Take a load off. We make it easier for you to make better choices. Always included: eco-friendly products you can trust.</li>
                 </ul>
-                <div className='btn-div'>
-                    <button href='/'>Claim your free offer</button>
-                </div>
+                <ClaimButton />
             </div>
             <img src={catImage} alt='friendly cat' />
         </div>
