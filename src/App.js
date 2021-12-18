@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import ClaimButton from './components/ClaimButton';
 import IntroSection from './components/IntroSection';

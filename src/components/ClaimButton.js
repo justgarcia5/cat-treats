@@ -1,11 +1,11 @@
 import React from 'react';
-import './ClaimButton.css'
+import './ClaimButton.css';
 
 const ClaimButton = () => {
     return(
         <div className='btn-div'>
-        <button href='/'>Claim your free offer</button>
-    </div>
+            <button href='/'>Claim your free offer</button>
+        </div>
     )
 }
 

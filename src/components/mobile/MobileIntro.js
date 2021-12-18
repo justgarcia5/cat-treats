@@ -13,7 +13,7 @@ export default function MobileIntro(props) {
                     It's on us!
                 </h1>
                 <p>Treat your pet to a healthy treat for <b>free</b> to kick off your Public Goods trial membership.</p>
-                <p><b>See what it's like to be a Public Goods member.</b></p>
+                <p className='col1-2childp'><b>See what it's like to be a Public Goods member.</b></p>
                 <ul>
                     <li>Included in your bundle is a free 2 week membership that gives you unlimited access to our entire collection of sustainable essentials.</li>
                     <li>Take a load off. We make it easier for you to make better choices. Always included: eco-friendly products you can trust.</li>

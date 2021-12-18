@@ -13,9 +13,10 @@
     }
 }
 
-.ourtreats-div h4 {
+.ourtreats-div h3 {
     margin: 0;
     padding-top: 10px;
+    font-family: Optima Narrow, sans-serif;
 }
 
 .treats-div-row1 {
@@ -64,13 +65,38 @@
 .row2-trial-info {
     margin-top: 100px;
     margin-bottom: 100px;
-    padding-left: 100px;
+    padding-left: 50px;
     padding-right: 50px;
+}
+
+.row2-trial-info div {
+    display: flex;
+    text-align: left;
+}
+
+.row2-trial-info div i {
+    padding: 10px 10px;
+}
+
+.row2-trial-info div p {
+    margin: 10px;
+}
+
+.row2-trial-info h3 {
+    font-family: Optima Narrow, sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
     .row2-trial-info {
-        padding: 0 15px 30px 25px;
+        padding: 0 15px 60px 15px;
         margin: 0;
+    }
+
+    .row2-trial-info p b {
+        font-size: 23px;
+    }
+
+    .row2-trial-info p {
+        font-size: 18px;
     }
 }

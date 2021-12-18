@@ -1,13 +1,13 @@
 import React from 'react';
 import './OurTreat.css'
-import OurTreatsMobile from './mobile/OurTreatsMobile';
-import OurTreatsDesktop from './desktop/OurTreatsDesktop';
+import MobileOurTreat from './mobile/MobileOurTreat';
+import DesktopOurTreat from './desktop/DesktopOurTreat';
 
 export default function OurTreat(props) {
     return(
         <>
-            { props.isMobile && <OurTreatsMobile />}
-            { !props.isMobile && <OurTreatsDesktop />}
+            { props.isMobile && <MobileOurTreat /> }
+            { !props.isMobile && <DesktopOurTreat /> }
         </>
     )
 }

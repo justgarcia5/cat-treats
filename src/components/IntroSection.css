@@ -34,6 +34,10 @@
     width: 370px;
 }
 
+.col1 ul li {
+    padding: 10px 0;
+}
+
 @media only screen and (max-width: 600px) {
     .col1 {
         padding: 0;
@@ -41,22 +45,19 @@
     }
 
     .col1 h1 {
-        font-size: 26px;
         padding-left: 25px;
     }
 
     .col1 p {
         padding-left: 25px;
+        font-size: 19px;
     }
-}
 
-@media only screen and (max-width: 600px) {
-    .col1 h1 {
-        font-size: 26px;
-        padding-left: 20px;
+    .col1 ul li {
+        font-size: 18px;
     }
-}
 
-.col1 ul li {
-    padding: 10px 0;
+    .col1-2childp b {
+        font-size: 22px;
+    }
 }
