@@ -6,14 +6,16 @@ import OurTreat from './components/OurTreat';
 
 function App() {
   const [isMobile, setIsMobile] = useState(false);
+  // eslint-disable-next-line no-restricted-globals
+  let width = screen.width;
 
   useEffect(() => {
-    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && width <= 600){
       setIsMobile(true);
     } else {
       setIsMobile(false);
     }
-  },[isMobile])
+  },[isMobile, width])
 
   return (
     <React.Fragment>
