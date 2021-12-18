@@ -5,10 +5,10 @@ import OurTreat from './components/OurTreat';
 
 function App() {
   return (
-    <div>
+    <React.Fragment>
       <IntroSection />
       <OurTreat />
-    </div>
+    </React.Fragment>
   );
 }
 
