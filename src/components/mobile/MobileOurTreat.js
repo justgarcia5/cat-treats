@@ -27,7 +27,7 @@ export default function MobileOurTreat() {
                 <div className='row2-trial-info'>
                     <h3>PET-APPROVED</h3>
                     <p><b>It feels good to be a member.</b></p>
-                    <p>After your free trial, bevome a fulltime member with benifits for $59 a year.</p>
+                    <p>After your free trial, become a fulltime member with benifits for $59 a year.</p>
                     <div>
                         <i><FontAwesomeIcon icon={faCheck}  /></i>
                         <p> Cancel anytime during your free trial.</p>

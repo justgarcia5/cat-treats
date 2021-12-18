@@ -16,7 +16,6 @@
 .ourtreats-div h3 {
     margin: 0;
     padding-top: 10px;
-    font-family: Optima Narrow, sans-serif;
 }
 
 .treats-div-row1 {
@@ -82,13 +81,9 @@
     margin: 10px;
 }
 
-.row2-trial-info h3 {
-    font-family: Optima Narrow, sans-serif;
-}
-
 @media only screen and (max-width: 600px) {
     .row2-trial-info {
-        padding: 0 15px 60px 15px;
+        padding: 0 35px 60px 35px;
         margin: 0;
     }
 
