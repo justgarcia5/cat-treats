@@ -16,7 +16,6 @@
 .ourtreats-div h4 {
     margin: 0;
     padding-top: 10px;
-
 }
 
 .treats-div-row1 {
@@ -71,7 +70,7 @@
 
 @media only screen and (max-width: 600px) {
     .row2-trial-info {
-        padding: 0 10px 30px 10px;
+        padding: 0 15px 30px 25px;
         margin: 0;
     }
 }
