@@ -14,7 +14,7 @@ export default function MobileOurTreat() {
                 <div className='treats-div-row1'>
                     <div>
                         <img src={catTreats} alt='cat treats' />
-                        <h3>Freez Dried Minnows</h3>
+                        <h3>Freeze Dried Minnows</h3>
                         <p>Healthy ingredients with nothing to hide.</p>
                     </div>
                 </div>

@@ -14,13 +14,13 @@ export default function DesktopOurTreat() {
                 <div className='treats-div-row1'>
                     <div>
                         <img src={catTreats} alt='cat treats' />
-                        <h3>Freez Dried Minnows</h3>
-                        <p>Healthy ingredients with nothing to hide</p>
+                        <h3>Freeze Dried Minnows</h3>
+                        <p>Healthy ingredients with nothing to hide.</p>
                     </div>
                     <div>
                         <img src={catTreats} alt='cat treats' />
                         <h3>Freez Dried Minnows</h3>
-                        <p>Healthy ingredients with nothing to hide</p>
+                        <p>Healthy ingredients with nothing to hide.</p>
                     </div>
                 </div>
 
