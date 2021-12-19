@@ -42,7 +42,7 @@
 @media only screen and (max-width: 600px) {
     .treats-div-row2 img {
         width: 100vw;
-        height: 400px;
+        height: 100%;
     }
 }
 
