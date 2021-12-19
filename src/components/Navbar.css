@@ -24,6 +24,7 @@
     }
     .home-link {
         margin-top: 14px;
+        margin-right: 10px;
         width: 33%;
         text-align: center;
     }
@@ -38,7 +39,7 @@
         margin-top: 26px;
         width: 16%;
         text-align: right;
-        margin-right: 45px;
+        margin-right: 35px;
         color: rgb(104, 101, 101)!important;
     }
 

@@ -84,7 +84,7 @@
 @media only screen and (max-width: 600px) {
     .row2-trial-info {
         padding: 0 35px 60px 35px;
-        margin: 0;
+        margin: auto;
     }
 
     .row2-trial-info p b {
