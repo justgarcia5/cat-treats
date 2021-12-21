@@ -16,6 +16,15 @@
         top: 0;
     }
 
+    .nav a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav b {
+        color: black;
+    }
+
     .menu-icon {
         width: 33%;
         font-size: 30px;
@@ -24,7 +33,6 @@
     }
     .home-link {
         font-size: 20px;
-        /* margin-top: 14psx; */
         width: 33%;
         text-align: center;
         margin: 14px 36px 0 20px;
@@ -43,14 +51,5 @@
         text-align: right;
         margin-right: 30px;
         color: rgb(104, 101, 101)!important;
-    }
-
-    .nav a {
-        text-decoration: none;
-        color: black;
-    }
-
-    .nav b {
-        color: black;
     }
 }
