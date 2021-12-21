@@ -9,9 +9,9 @@ import happyCat from '../../images/cat_image2_mobile.png';
 export default function MobileOurTreat() {
     return(
         <div>
-            <div className='ourtreats-div'>
+            <div className='ourtreats-div-row1'>
                 <h3>OUR TREAT</h3>
-                <div className='treats-div-row1'>
+                <div className='ourtreats-inner-div'>
                     <div>
                         <img src={catTreats} alt='cat treats' />
                         <h3>Freeze Dried Minnows</h3>
@@ -20,7 +20,7 @@ export default function MobileOurTreat() {
                 </div>
 
             </div>
-            <div className='treats-div-row2'>
+            <div className='ourtreats-div-row2'>
                 <div>
                     <img src={happyCat} alt='cat treats' />
                 </div>

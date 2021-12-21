@@ -1,4 +1,4 @@
-.ourtreats-div {
+.ourtreats-div-row1 {
     padding-top: 20px;
     text-align: center;
     background-color: rgb(223, 221, 221);
@@ -7,46 +7,46 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .ourtreats-div {
+    .ourtreats-div-row1 {
         width: 100vw;
         height: 400px;
     }
 }
 
-.ourtreats-div h3 {
+.ourtreats-div-row1 h3 {
     margin: 0;
     padding-top: 10px;
 }
 
-.treats-div-row1 {
+.ourtreats-inner-div {
     margin: auto;
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 30px;
 }
 
-.treats-div-row1 div img {
+.ourtreats-inner-div  div img {
     height: 300px;
 }
 
 @media only screen and (max-width: 600px) {
-    .treats-div-row1 div img {
+    .ourtreats-inner-div div img {
         height: 260px;
     }
 }
 
-.treats-div-row2 img {
-    height: 460px;
+.ourtreats-div-row2 img {
+    height: 475px;
 }
 
 @media only screen and (max-width: 600px) {
-    .treats-div-row2 img {
+    .ourtreats-div-row2 img {
         width: 100vw;
         height: 100%;
     }
 }
 
-.treats-div-row2 {
+.ourtreats-div-row2 {
     margin: auto;
     display: flex;
     justify-content: left;
@@ -56,14 +56,14 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .treats-div-row2 {
+    .ourtreats-div-row2 {
         display: inline;
     }
 }
 
 .row2-trial-info {
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     padding-left: 50px;
     padding-right: 50px;
 }
